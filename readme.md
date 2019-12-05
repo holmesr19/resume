@@ -24,10 +24,10 @@ Needham B. Broughton High School, Class of 2015
 #### Personal
 
 #### Class Projects
-* [Ancient Graffiti Project](link-to-github): Worked in an agile team to create index pages that display each graffito alphabetically by description.
+* [Ancient Graffiti Project](http://ancientgraffiti.org/about/): Worked in an agile team to create index pages that display each graffito alphabetically by description.
 * Built on the above scraper to analyze the poetry of Ovid using word2vec and other quantitave methods.
 * Designed and constructed a remote control lawnmowing robot from scratch on a $400 budget using an Arduino, weed wacker, and various electronic and mechanical odds and ends.
-* Constructed a relational database for a fictional car rental company using PostgreSQL on [pgweb](link-to-pgweb)
+* Constructed a relational database for a fictional car rental company using PostgreSQL on [pgweb](https://github.com/sosedoff/pgweb)
 
 ### Skills and Interests
 #### Skills 
