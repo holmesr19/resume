@@ -22,9 +22,11 @@ Needham B. Broughton High School, Class of 2015
 
 ### Projects
 #### Personal
+* [West Raleigh EOC](https://github.com/holmesr19/canessiteui) - An Angular 8 frontend that uses data from the [NHL API](https://gitlab.com/dword4/nhlapi) to display Carolina Hurricanes Hockey statistics. 
+* [The Latin Library Scraper](https://github.com/holmesr19/Classics_scraper) - A Python 3 project that uses a depth-first search to scrape the contents of [The Latin Library](theLatinLibrary.com) by author and book.
 
 #### Class Projects
-* [Ancient Graffiti Project](http://ancientgraffiti.org/about/): Worked in an agile team to create index pages that display each graffito alphabetically by description.
+* [Ancient Graffiti Project](http://ancientgraffiti.org/about/) - Worked on a Maven project to create index pages  that display every graffito in Pompeii and Herculaneum alphabetically by description using Java servlets and JSP's.
 * Built on the above scraper to analyze the poetry of Ovid using word2vec and other quantitave methods.
 * Designed and constructed a remote control lawnmowing robot from scratch on a $400 budget using an Arduino, weed wacker, and various electronic and mechanical odds and ends.
 * Constructed a relational database for a fictional car rental company using PostgreSQL on [pgweb](https://github.com/sosedoff/pgweb)
