@@ -36,7 +36,7 @@ Needham B. Broughton High School, Class of 2015
 
 ### Projects
 #### Personal
-* [Hockey Analytics Dashboards](https://github.com/holmesr19/canessiteui) - An Angular 8 front-end for the publicly available NHL API ([unofficial documentation](https://github.com/dword4/nhlapi#game-ids)) that leverages Material Design and D3.js to allows users to easily find content they enjoy and craft data-driven narratives.
+* [Hockey Analytics Dashboards](http://hockeydashboards.net) - An Angular 8 front-end for the publicly available NHL API ([unofficial documentation](https://github.com/dword4/nhlapi#game-ids)) that leverages Material Design and D3.js to allows users to easily find in-game content they enjoy and craft data-driven narratives around players and teams, both current and historical.
 * [Hurricanes Twitter Bot](https://twitter.com/HurricanesBot) - Deployed Matt Donders' Python [hockey game bot](https://github.com/mattdonders/nhl-twitter-bot) to a Google Cloud Compute instance that live-tweets all Carolina Hurricanes' game events (goals, penalties, period start and end, etc.)  
 #### Coming Soon
 * Personal Webpage - Full stack application using Python and Angular that features personal and professional information as well as a blog.
