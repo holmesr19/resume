@@ -36,11 +36,11 @@ Needham B. Broughton High School, Class of 2015
 
 ### Projects
 #### Personal
-* [Hockey Analytics Dashboards](http://hockeydashboards.net) - An Angular 8 front-end for the publicly available NHL API ([unofficial documentation](https://github.com/dword4/nhlapi#game-ids)) that leverages Material Design and D3.js to allows users to easily find in-game content they enjoy and craft data-driven narratives around players and teams, both current and historical.
-* [Hurricanes Twitter Bot](https://twitter.com/HurricanesBot) - Deployed Matt Donders' Python [hockey game bot](https://github.com/mattdonders/nhl-twitter-bot) to a Google Cloud Compute instance that live-tweets all Carolina Hurricanes' game events (goals, penalties, period start and end, etc.)  
+* [Hockey Analytics Dashboards](http://hockeydashboards.net) - An Angular 8 front-end for the publicly available NHL API ([unofficial documentation](https://github.com/dword4/nhlapi#game-ids)) that leverages Material Design to allow users to easily find in-game content they enjoy and craft data-driven narratives around players and teams, both current and historical. Hosted on an AWS EC2 instance running Ubuntu Server 20.04 and nginx.
+* [Hurricanes Twitter Bot](https://twitter.com/HurricanesBot) - Deployed Matt Donders' Python [hockey game bot](https://github.com/mattdonders/nhl-twitter-bot) to a Google Cloud Compute Engine instance that live-tweets all Carolina Hurricanes' game events (goals, penalties, period start and end, etc.)  
 #### Coming Soon
-* Personal Webpage - Full stack application using Python and Angular that features personal and professional information as well as a blog.
-* Latin Language Analysis Tool - A powerful analysis engine built on the APIs exposed by [Latin WordNet](https://latinwordnet.exeter.ac.uk/) and the Perseus Project (Morpheus morphology API) that helps students and teachers read, annotate, save and export selections from popular pre-loaded texts or their own user-supplied passages. Pre-loaded texts come from [Perseus open data](https://www.perseus.tufts.edu/hopper/opensource/download), which had to be converted from XML to JSON. That data itself is available in a separate repository.
+* Personal Webpage - Full stack application using Python and Angular that features personal and professional information as well as a blog. Looking at using AWS RDS to hold the blog storage and host the docker instances for the front end and back end on my machine running Ubuntu Server.
+* Latin Language & Corpus Analysis Tool (LCAT) - A powerful analysis engine built on the APIs exposed by [Latin WordNet](https://latinwordnet.exeter.ac.uk/) and the Perseus Project (Morpheus morphology API) that helps students and teachers read, annotate, save and export selections from popular pre-loaded texts or their own user-supplied passages. Pre-loaded texts come from [Perseus open data](https://www.perseus.tufts.edu/hopper/opensource/download), which had to be converted from XML to JSON. That data itself will be made available in a separate repository. Inspriation was also drawn from [Open Source Shakespeare](http://www.opensourceshakespeare.org/), which provided a jumping-off point for the corpus analysis part of the project. Could be a good candidate for DynamoDB or S3.
 
 #### Class Projects
 * CSCI 335, [Ancient Graffiti Project](http://ancientgraffiti.org/about/) - Worked on a Maven project to create index pages  that display every graffito in Pompeii and Herculaneum alphabetically by description using Java servlets and JSP's.
@@ -50,7 +50,7 @@ Needham B. Broughton High School, Class of 2015
 
 ### Skills and Interests
 #### Skills 
-Python, C#, Angular 8, Java, git, SQL (SSMS 2019), Arduino, Jupyter Notebooks, Process Automation (Task Manager with batch files), HTML & CSS, Latin, Ancient Greek
+Python, C#, Angular 8, Java, git, SQL (MS SQL Server), Arduino, Jupyter Notebooks, Process Automation (Task Manager with batch files), HTML & CSS, Latin, Ancient Greek
 
 #### Interests
 Data Mining, ETL, Text Analysis, Statistics, Hockey & Sports Analytics, Data Visualization, Robotics, Natural Language Processing
