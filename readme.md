@@ -2,21 +2,17 @@
 robertebholmes@gmail.com
 
 ### Education
-#### College 
-Washington and Lee University, Class of 2019
+Washington and Lee University
 * Bachelor of Arts, Computer Science and Classics
-* 3.4 GPA, President's List (2018), ODAC Academic All-Conference (2017, 2018, 2019)
+* 3.4 GPA, President's List (Jr.), ODAC Academic All-Conference (Soph., Jr., Sr.)
 
-#### High School
-Needham B. Broughton High School, Class of 2015
-* 3.9 GPA, Governor's Scholar, President's Scholar, AP Scholar with Honor
+AWS Cloud Practitioner (CLF-001) Certified
 
 ### Experience
 #### Software Developer, M&T Bank, Summer 2019 - Present
-* Primary developer on a Python ETL tool that uses pandas to conduct data from a record keeping system to a payment distribution application.
-* Implemented a .NET Core solution that allows a user to OCR documents of any size and successfully send the scanned, searchable PDF to the correct external recipient with 98% accuracy. 
-* Led a successful effort to transfer source code from Team Foundation Server to Azure DevOps git repositories and maintain feature branching workflow.
-* Organized various quarterly volunteer events for up to 15 colleagues.
+* Developed a full-stack application that [manages collateral assets](https://www3.wilmingtontrust.com/corporate-institutional/institutional-custody-administrative-services.html) for financial institutions that secure municipal bond issues.
+* Implemented a .NET Core solution that scans hundreds of physical insurance documents and adds them to a database in support of the [Capital Markets Insurance group](https://www3.wilmingtontrust.com/corporate-institutional/capital-markets-structured-finance/capital-markets-insurance.html) 
+* Took ownership of community engagement initiatives for new graduates at my location by organizing and facilitating various in-person and at-home community service events and personally mentored two new grads.
 
 #### Teaching Assistant, WLU Computer Science Department, Fall 2017
 * Quickly diagnosed issues with student code and help them to understand how their problem arose.
@@ -37,20 +33,18 @@ Needham B. Broughton High School, Class of 2015
 ### Projects
 #### Personal
 * [Hockey Analytics Dashboards](http://hockeydashboards.net) - An Angular 8 front-end for the publicly available NHL API ([unofficial documentation](https://github.com/dword4/nhlapi#game-ids)) that leverages Material Design to allow users to easily find in-game content they enjoy and craft data-driven narratives around players and teams, both current and historical. Hosted on an AWS EC2 instance running Ubuntu Server 20.04 and nginx.
-* [Hurricanes Twitter Bot](https://twitter.com/HurricanesBot) - Deployed Matt Donders' Python [hockey game bot](https://github.com/mattdonders/nhl-twitter-bot) to a Google Cloud Compute Engine instance that live-tweets all Carolina Hurricanes' game events (goals, penalties, period start and end, etc.)  
-#### Coming Soon
-* Personal Webpage - Full stack application using Python and Angular that features personal and professional information as well as a blog. Looking at using AWS RDS to hold the blog storage and host the docker instances for the front end and back end on my machine running Ubuntu Server.
-* Latin Language & Corpus Analysis Tool (LCAT) - A powerful analysis engine built on the APIs exposed by [Latin WordNet](https://latinwordnet.exeter.ac.uk/) and the Perseus Project (Morpheus morphology API) that helps students and teachers read, annotate, save and export selections from popular pre-loaded texts or their own user-supplied passages. Pre-loaded texts come from [Perseus open data](https://www.perseus.tufts.edu/hopper/opensource/download), which had to be converted from XML to JSON. That data itself will be made available in a separate repository. Inspriation was also drawn from [Open Source Shakespeare](http://www.opensourceshakespeare.org/), which provided a jumping-off point for the corpus analysis part of the project. Could be a good candidate for DynamoDB or S3.
+* [Personal Site](http://bancksholmes.com) - Static site hosted on AWS S3 that I use to communicate the progress of my projects.
+* [VILLA](http://bancksholmes.com/posts/2020/11/24/VILLA-database.html) - A Latin Literature data service designed to make the analysis of classical texts easier and less reliant on TEI EpiDoc XML format.
 
 #### Class Projects
-* CSCI 335, [Ancient Graffiti Project](http://ancientgraffiti.org/about/) - Worked on a Maven project to create index pages  that display every graffito in Pompeii and Herculaneum alphabetically by description using Java servlets and JSP's.
-* Latin 326, The Poetry of Ovid - This project began as a [scraper](https://github.com/holmesr19/Classics_scraper) that used Depth-First Search to scrape the contents of the [The Latin Library](theLatinLibrary.com). I then added on to the DFS scraper to analyze the poetry of Ovid using word2vec and other quantitative methods. 
-* CSCI 250, Robotics with Arduino - Designed and constructed a remote control lawnmowing robot from scratch on a $400 budget using an Arduino, weed wacker, and various electronic and mechanical components.
-* CSCI 317, Database Management - Constructed a relational database for a fictional car rental company using PostgreSQL on [pgweb](https://github.com/sosedoff/pgweb)
+* [Ancient Graffiti Project](http://ancientgraffiti.org/about/) - Worked on a Maven project to create index pages  that display every graffito in Pompeii and Herculaneum alphabetically by description using Java servlets and JSP's.
+* Robotics with Arduino - Designed and constructed a remote control lawnmowing robot from scratch on a $400 budget using an Arduino, weed wacker, and various electronic and mechanical components.
+* Database Management - Constructed a relational database for a fictional car rental company using PostgreSQL on [pgweb](https://github.com/sosedoff/pgweb)
+* The Poetry of Ovid - This project began as a [scraper](https://github.com/holmesr19/Classics_scraper) that used Depth-First Search to scrape the contents of the [The Latin Library](theLatinLibrary.com). I then added on to the DFS scraper to analyze the poetry of Ovid using word2vec and other quantitative methods. 
 
 ### Skills and Interests
 #### Skills 
-Python, C#, Angular 8, Java, git, SQL (MS SQL Server), Arduino, Jupyter Notebooks, Process Automation (Task Manager with batch files), HTML & CSS, Latin, Ancient Greek
+Python, C#, Javascript/Typescript (Angular), Java, git, SQL (MS SQL Server), HTML & CSS, Latin, Ancient Greek
 
 #### Interests
 Data Mining, ETL, Text Analysis, Statistics, Hockey & Sports Analytics, Data Visualization, Robotics, Natural Language Processing
